@@ -1,0 +1,8 @@
+{
+  "name": "request-ce-front-end",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}
