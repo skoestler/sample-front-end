@@ -1,10 +1,10 @@
 {
   "name": "@kineticdata/space-console",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
-    "@kineticdata/components": "1.0.0",
-    "@kineticdata/tools": "1.0.0",
+    "@kineticdata/components": "^1.0.1",
+    "@kineticdata/tools": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
