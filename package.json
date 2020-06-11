@@ -7,16 +7,18 @@
     "start:bundle": "yarn workspace @kineticdata/bundle start",
     "lint": "FORCE_COLOR=true lerna run lint",
     "build": "lerna run build",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "version": "lerna version"
   },
   "workspaces": {
     "nohoist": [
       "@kineticdata/tools/**"
     ],
-    "packages":[
+    "packages": [
       "apps/*",
       "libs/*",
       "tools"
     ]
-  }
+  },
+  "version": "0.0.0"
 }
