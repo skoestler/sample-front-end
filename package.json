@@ -5,7 +5,7 @@
     "start:space-console": "yarn workspace @kineticdata/space-console start",
     "start:system-console": "yarn workspace @kineticdata/system-console start",
     "start:bundle": "yarn workspace @kineticdata/bundle start",
-    "lint": "lerna run lint",
+    "lint": "FORCE_COLOR=true lerna run lint",
     "build": "lerna run build",
     "test": "lerna run test"
   },

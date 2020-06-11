@@ -5,11 +5,13 @@
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.10.1",
+    "lerna": "^3.22.1",
     "react-scripts": "3.4.1"
   },
   "bin": {
-    "babel": "bin/babel.js",
-    "eslint": "bin/eslint.js",
-    "react-scripts": "bin/react-scripts.js"
+    "babel": "./bin/babel.js",
+    "eslint": "./bin/eslint.js",
+    "lerna": "./bin/lerna.js",
+    "react-scripts": "./bin/react-scripts.js"
   }
 }
