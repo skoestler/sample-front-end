@@ -1,0 +1,15 @@
+{
+  "name": "@kineticdata/tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "react-scripts": "3.4.1"
+  },
+  "bin": {
+    "babel": "bin/babel.js",
+    "eslint": "bin/eslint.js",
+    "react-scripts": "bin/react-scripts.js"
+  }
+}

@@ -1,23 +1,19 @@
 {
-  "name": "space-console",
+  "name": "@kineticdata/space-console",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-workspaces/react-scripts": "3.4.0-alpha-01",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@kineticdata/components": "1.0.0",
+    "@kineticdata/tools": "1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint src",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [

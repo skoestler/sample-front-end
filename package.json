@@ -1,8 +1,22 @@
 {
   "name": "request-ce-front-end",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "libs/*"
-  ]
+  "scripts": {
+    "start:space-console": "yarn workspace @kineticdata/space-console start",
+    "start:system-console": "yarn workspace @kineticdata/system-console start",
+    "start:bundle": "yarn workspace @kineticdata/bundle start",
+    "lint": "lerna run lint",
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
+  "workspaces": {
+    "nohoist": [
+      "@kineticdata/tools/**"
+    ],
+    "packages":[
+      "apps/*",
+      "libs/*",
+      "tools"
+    ]
+  }
 }
